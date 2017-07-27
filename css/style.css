@@ -1,0 +1,82 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  font-family: Bellefair;
+  font-size: 30px;
+  background-color: #ddce6e;
+  color: #272933;
+}
+.navbar{
+  font-family: Bellefair;
+  width: 100%;
+  background-color: #676778;
+  color: #ddce6e;
+}
+
+#line{
+color: #676778;
+}
+.nav-link {
+  font-family: Bellefair;
+  margin: 20px;
+  font-size: 25px;
+  color:#272933;
+}
+a:hover {
+  font-family: Bellefair;
+  background-color: #676778;
+  color: #ddce6e;
+  text-decoration: none;
+}
+
+a.project:hover {
+  font-family: Bellefair;
+  background-color:#ddce6e ;
+  color: #676778;
+  text-decoration: none;
+}
+b {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  font-size: 65px;
+  height: 100px;
+  width: 100%;
+}
+
+#main {
+  margin-left: 20px
+}
+
+#mainLogo {
+  align-content: center;
+  border-radius: 10%;
+}
+
+span1 {
+ display: inline-block;
+ font-family: Roboto;
+color: #676778;
+position: relative;
+white-space: nowrap;
+top: 200;
+left: 300px;
+-webkit-animation: move 10s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-delay: 1s;
+}
+
+@keyframes move {
+0%  { top: 0px; }
+20% { top: -100px; }
+40% { top: -200px; }
+60% { top: -300px; }
+80% { top: -400px; }
+}
+
+
+.devicons {
+  font-size: 40px;
+}
